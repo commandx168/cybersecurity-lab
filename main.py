@@ -11,6 +11,7 @@ limiter = Limiter(
     key_func=get_remote_address,
     app=app,
     default_limits=[]
+    storage_uri="memory://"
 )
 
 # Work factor
