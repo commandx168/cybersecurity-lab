@@ -10,7 +10,7 @@ app = Flask(__name__)
 limiter = Limiter(
     key_func=get_remote_address,
     app=app,
-    default_limits=[]
+    default_limits=[],
     storage_uri="memory://"
 )
 
