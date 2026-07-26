@@ -7,7 +7,7 @@ import time
 
 app = Flask(__name__)
 
-WORK_FACTOR = 200_000
+WORK_FACTOR = 600_000
 PASSWORD_LENGTH = 10
 SALT_SIZE_BYTES = 16
 
